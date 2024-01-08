@@ -1,0 +1,131 @@
+* {
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "Argesta";
+  src: url("../ArgestaDisplay-Regular.otf");
+}
+.navbar {
+  font-family: "Open Sans";
+}
+
+.collapse ul li a:first-of-type {
+  border: 2px solid white;
+}
+
+.hero,
+h1,
+h2 {
+  font-family: "Argesta", serif;
+}
+
+.hero .btn {
+  font-family: "Open Sans";
+  font-weight: bold;
+}
+
+.hero .btn-primary {
+  border: 2px solid white;
+}
+
+.hero-illo-phone-new {
+  width: 100%;
+  max-width: 22rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: skew(-24deg, 10deg);
+  overflow-y: hidden;
+}
+
+.hero a,
+.col-md-4 a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.hero a i:hover,
+i:hover {
+  margin-left: 8px;
+  transition: all 0.35s ease-in-out;
+}
+
+.brands {
+  justify-content: space-between;
+}
+
+.card-1,
+.card-2 {
+  border-right: 1px dashed white;
+}
+
+.brands .second {
+  width: 10%;
+  justify-content: space-between;
+}
+
+.lighblue {
+  color: lightskyblue;
+}
+
+.animation {
+  background-color: rgb(196, 230, 254);
+}
+
+.animation i {
+  color: #136d58;
+}
+
+.animation i:hover,
+.socials i:hover {
+  transition: none;
+  margin-left: 0;
+}
+
+.socials i:hover {
+  cursor: pointer;
+}
+
+.about-us ul li a,
+.merchants ul li a,
+.shoppers ul li a,
+.socials i {
+  color: gray;
+}
+
+.about-us ul li a:hover,
+.merchants ul li a:hover,
+.shoppers ul li a:hover,
+.socials i:hover {
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-bg img {
+    margin-top: 60px;
+    margin-right: 200px;
+    transform: none;
+  }
+  .hero-brands {
+    margin-top: 40px;
+  }
+  .hero-brands .brands img {
+    height: 45px;
+  }
+  .card-1 {
+    border-right: 0;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    margin-bottom: 20px;
+  }
+  .card-2 {
+    margin-bottom: 20px;
+    border-right: none;
+    border-radius: 50%;
+  }
+  #brands {
+    width: 800px;
+  }
+}
